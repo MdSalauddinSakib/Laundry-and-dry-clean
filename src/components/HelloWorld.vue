@@ -27,20 +27,25 @@
       </div>
     </div>
   </section>
+  <!-- top bar end -->
 
+  <!-- nav bar -->
   <section class="px-20">
-    <nav class="bg-gray-800 p-4">
-      <div class="container mx-auto flex justify-between items-center">
-        <a href="#" class="text-white text-xl font-bold">Logo</a>
+    <nav class="p-4">
+      <div class="container mx-auto flex justify-between items-center font-medium text-base text-[#142137]">
+        <!-- logo -->
+        <a href="#" class="text-3xl font-bold flex items-center"><img src="../assets/img/logo.png" alt="">&nbsp;Laundry</a>
+        <!-- menu -->
         <div class="hidden md:flex space-x-4">
-          <a href="#" class="text-white hover:text-gray-300">Home</a>
-          <a href="#" class="text-white hover:text-gray-300">About</a>
-          <a href="#" class="text-white hover:text-gray-300">Contact</a>
+          <a href="#" class=" hover:text-[#4375E7]">Home <i class="fa-solid fa-angle-down"></i></a>
+          <a href="#" class=" hover:text-[#4375E7]">About Us</a>
+          <a href="#" class=" hover:text-[#4375E7]">Service <i class="fa-solid fa-angle-down"></i></a>
+          <a href="#" class=" hover:text-[#4375E7]">Pages <i class="fa-solid fa-angle-down"></i></a>
+          <a href="#" class=" hover:text-[#4375E7]">Blog <i class="fa-solid fa-angle-down"></i></a>
+          <a href="#" class=" hover:text-[#4375E7]">Contact</a>
         </div>
-        <button class="md:hidden text-white">
-          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-          </svg>
+        <button class="cursor-pointer p-4 border border-[#14213733]">
+          Schedule a Pickup <i class="fa-solid fa-arrow-right"></i>
         </button>
       </div>
     </nav>
